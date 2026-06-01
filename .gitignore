@@ -1,0 +1,21 @@
+# Python environment and dependencies
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Docker/Database related (Sensitive info)
+.env
+.env.local
+.DS_Store
+
+# Logs and databases (In case you use local SQLite or dumps)
+*.log
+*.sqlite3
+*.db
+*.dump
+
+# Project-specific lock files
+uv.lock
